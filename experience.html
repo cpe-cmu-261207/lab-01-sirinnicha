@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #main {
+        font-family: "Staatliches", cursive;
+      }
+      #content {
+        font-family: "Exo 2", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-pink-100">
+    <!-- navbar container-->
+    <div id="main" class="bg-pink-200 py-4 mb-2">
+      <div class="flex flex-row justify-center space-x-16">
+        <div
+          class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-pink-400"
+        >
+          <p class="text-xl text-pink-700 hover:text-red-700">
+            <a href="index.html">Home page</a>
+          </p>
+        </div>
+        <div
+          class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-pink-400"
+        >
+          <p class="text-xl text-pink-700 hover:text-red-700">
+            <a href="experience.html">Experience</a>
+          </p>
+        </div>
+        <div
+          class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-pink-400"
+        >
+          <p class="text-xl text-pink-700 hover:text-red-700">
+            <a href="contact.html">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- bt menu -->
+    <div class="flex justify-center mt-16">
+      <p id="main" class="text-3xl text-pink-900">Experience</p>
+    </div>
+    <div>
+      <div class="flex">
+        <img class="rounded-lg w-60 h-60 m-20" src="images/oop.jpg" />
+        <div class="m-auto">
+          <p id="main" class="text-2xl text-pink-900">SAFE THE SEA GAME</p>
+          <p id="content" class="text-xl font-semibold text-pink-700">
+            My object oriented programming project. This project had 3 people in
+            a group. I was responsible for Graphic Designing and I drawn all of
+            2D models in this game.
+          </p>
+        </div>
+      </div>
+      <div class="flex">
+        <img class="rounded-lg w-60 h-60 m-20" src="images/logic1.jpg" />
+        <div class="m-auto">
+          <p id="main" class="text-2xl text-pink-900">SECURITY BOX</p>
+          <p id="content" class="text-xl font-semibold text-pink-700">
+            This is my logic project. It is a model of a security box. The
+            process was designed completely, but there were still many problems
+            during the project. So we tried to make our project progress
+            everyday and my group had to spend about 2 weeks to finished it.
+          </p>
+        </div>
+      </div>
+      <div class="flex">
+        <img class="rounded-lg w-60 h-60 m-20" src="images/micro.jpg" />
+        <div class="m-auto">
+          <p id="main" class="text-2xl text-pink-900">GAMBY CHESS PROJECT</p>
+          <p id="content" class="text-xl font-semibold text-pink-700">
+            This project was inspired by the movie named 'The Gambit'. It's
+            about a chess competition. In this project, I had to design all
+            hardware parts. The result was not satisfying, but I think I love
+            the project like this!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

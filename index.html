@@ -1,21 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #main {
+        font-family: "Staatliches", cursive;
+      }
+      #content {
+        font-family: "Exo 2", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-blue-100">
+    <!-- navbar container-->
+    <div id="main" class="bg-blue-300 py-4 mb-2">
+      <div class="flex flex-row justify-center space-x-16">
+        <div class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-blue-400">
+          <p class="text-xl text-blue-300 hover:text-pink-300"><a href="index.html">Home page</a></p>
+        </div>
+        <div class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-blue-400">
+          <p class="text-xl text-blue-300 hover:text-pink-300"><a href="experience.html">Experience</a></p>
+        </div>
+        <div class="rounded-full h-24 w-24 mt-4 flex items-center justify-center bg-white hover:bg-blue-400">
+          <p class="text-xl text-blue-300 hover:text-pink-300"><a href="contact.html">Contact</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- name -->
+      <div>
+        <div class="mx-auto flex">
+          <img class="rounded-full w-60 h-60 m-20" src="images/stdimg.jpg">
+          <p id="content" class="mt-40 text-xl font-semibold text-blue-700">Hello. My name is Sirinnicha Tawiwuttirat. I'm a fourth-year student majoring in Computer Engineering,<br> Chiang Mai University.
+            I'm interested in website development ,both frontend and backend.
+          </p>
+        </div>
+        <!-- bottom menu -->
+       <div id="main" class="flex justify-center text-3xl text-blue-900"><p>My Skills</p></div>
+       <div>
+         <!-- ux/ui -->
+         <div class="m-20">
+          <div class="flex space-x-6 items-center">
+            <img class="w-96 rounded-full py-3 px-6" src="images/ux-ui.jpg">
+              <div class="flex-col">
+                <p id="main" class="text-2xl text-blue-900">UX/UI designing</p>
+                <p id="content" class="text-lg font-semibold text-blue-700">I used to design UX and UI for my project game application. 
+                  <br>This skill is one of the most important part for developing a game. </p>
+              </div>
+          </div>
+         </div>
+      
+         <!-- english -->
+         <div class="m-20">
+          <div class="flex space-x-6 items-center">
+            <img class="w-96 rounded-full py-3 px-6 " src="images/english.jpg">
+              <div class="flex-col">
+                <p id="main" class="text-2xl text-blue-900">English Skill</p>
+                <p id="content" class="text-lg font-semibold text-blue-700">I love using English in my daily life. we could see that English is everywhere <br>
+                  Not only is it in the books but also in programming. So English skill is very necessary <br>and I have to to pratice and revise it more.</p>
+              </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </body>
+  </html>
 </html>
